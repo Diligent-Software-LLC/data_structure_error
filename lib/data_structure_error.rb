@@ -4,7 +4,7 @@ require "data_structure_error/version"
 # Creational pattern: Abstract Factory.
 # @abstract: defines a DataStructureError exception class interface. Subclasses
 # ArgumentTypeError.
-class DataStructureError #< ArgumentTypeError
+class DataStructureError < ArgumentTypeError
 
   # initialize(message = nil).
   # @abstract: the constructor.
