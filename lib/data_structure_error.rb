@@ -41,13 +41,12 @@ class DataStructureError < ArgumentTypeError
   def choose(explanation)
   end
 
-  # type?(presumed_data_structure).
+  # data_structure?(presumed).
   # @abstract:
   # Boolean method. Returns true in the case the object is an acceptable data
   # structure. Returns false otherwise.
-  # @param presumed_data_structure: a presumed acceptable data structure
-  # object.
-  def type?(presumed_data_structure)
+  # @param presumed: a presumed acceptable data structure object.
+  def data_structure?(presumed)
   end
 
 end
