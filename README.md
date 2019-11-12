@@ -1,4 +1,4 @@
-# DataStructureError
+# DataStructureError [![Gem Version](https://badge.fury.io/rb/data_structure_error.svg)](https://badge.fury.io/rb/data_structure_error) ![Gem](https://img.shields.io/gem/dt/data_structure_error)
 Defines a `DataStructureError` exception class interface. An Abstract Factory. 
 Subclasses `ArgumentTypeError`. There are six instance method signatures. Three 
 signatures are `public`, and three are `private`. 
