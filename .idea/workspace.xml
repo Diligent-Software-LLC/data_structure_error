@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
-    </list>
+    <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
       <workItem from="1573497689620" duration="6216000" />
       <workItem from="1573525653784" duration="1061000" />
       <workItem from="1573582209908" duration="95000" />
-      <workItem from="1573697611000" duration="401000" />
+      <workItem from="1573697611000" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -96,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573525181917</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed architectural problems">
+      <created>1573698037651</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573698037651</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +122,8 @@
     <MESSAGE value="Edited README." />
     <MESSAGE value="Wrote README." />
     <MESSAGE value="Added badges." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added badges." />
+    <MESSAGE value="Fixed architectural problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed architectural problems" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
