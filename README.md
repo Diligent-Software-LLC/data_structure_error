@@ -1,7 +1,7 @@
 # DataStructureError [![Gem Version](https://badge.fury.io/rb/data_structure_error.svg)](https://badge.fury.io/rb/data_structure_error) ![Gem](https://img.shields.io/gem/dt/data_structure_error)
 Defines a `DataStructureError` exception class interface. An Abstract Factory. 
-Subclasses `ArgumentTypeError`. There are six instance method signatures. Three 
-signatures are `public`, and three are `private`. 
+Subclasses `ArgumentTypeError`. There are four instance method signatures. Three 
+signatures are `public`, and one is `private`. 
 
 ## Installation
 
@@ -20,11 +20,11 @@ Or install it yourself as:
     $ gem install data_structure_error
 
 ## Usage
-There are six method signatures. Three are `public`, and three are `private`.
+There are four method signatures. Three are `public`, and one is `private`.
 
 ### Public methods
 There are three `public` instance methods. The constructor, `message()`, and 
-`try(argument_type)`.
+`raise_exception(argument_type)`.
 
 #### `initialize(message = nil)`
 The constructor. Takes a `String` or `NilClass` object explaining the exception.
@@ -32,25 +32,15 @@ The constructor. Takes a `String` or `NilClass` object explaining the exception.
 #### `message()`
 Getter method. Gets and returns the `String` message.
 
-#### `try(argument_type)`
+#### `raise_exception(argument_type)`
 In the case the argument is a data type or an unacceptable data structure, 
 raises. Takes an unknown type object. Takes a presumed data structure object.
 
 ### Private methods
-There are three private instance signatures. The `message=(explanation)`, the 
-`choose(explanation)`, and the `data_structure?(presumed)` signatures.
+There is one private instance signature. The `message=(explanation)` signature.
 
 #### `message=(explanation)`
 Setter method. Sets the message attribute the argued explanation `String`.
-
-#### `choose(explanation)`
-Chooses the appropriate explanation. In the case no explanation `String` was 
-argued, the default explanation is the explanation.
-
-#### `data_structure?(presumed)`
-Boolean method. Returns `true` in the case the object is an acceptable data 
-structure. Returns `false` otherwise. Takes a presumed acceptable data structure 
-object.
 
 ## Development
 

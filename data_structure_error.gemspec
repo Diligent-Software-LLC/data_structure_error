@@ -10,10 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary     = %q{A DataStructureError exception class interface. Subclasses
  ArgumentTypeError.}
-  spec.description = %q{A DataStructureError exception class interface. An
-Abstract Factory. Subclasses ArgumentTypeError. Defines six method signatures.
-Three methods are public instance methods, and three are private instance
-methods.}
+  spec.description = %q{The update fixes architectural problems.}
   spec.homepage    = "https://github.com/scientist8202/data_structure_error"
   spec.license     = "MIT"
 

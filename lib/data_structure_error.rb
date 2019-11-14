@@ -17,11 +17,11 @@ class DataStructureError < ArgumentTypeError
   def message()
   end
 
-  # try(argument_type).
+  # raise_exception(argument_type).
   # @abstract: in the case the argumentis a data type or an unacceptable data
   # structure, raises. Takes an unknown type object.
   # @param argument_type: a presumed data structure object.
-  def try(argument_type)
+  def raise_exzception(argument_type)
   end
 
   private
@@ -31,22 +31,6 @@ class DataStructureError < ArgumentTypeError
   # Setter method. Sets the message attribute the argued explanation String.
   # @param explanation: a String explaining the exception.
   def message=(explanation)
-  end
-
-  # choose(explanation).
-  # @abstract:
-  # Chooses the appropriate explanation. In the case no explanation String was
-  # argued, the default explanation is the explanation.
-  # @param explanation: a String or NilClass object.
-  def choose(explanation)
-  end
-
-  # data_structure?(presumed).
-  # @abstract:
-  # Boolean method. Returns true in the case the object is an acceptable data
-  # structure. Returns false otherwise.
-  # @param presumed: a presumed acceptable data structure object.
-  def data_structure?(presumed)
   end
 
 end
