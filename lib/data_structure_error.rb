@@ -1,10 +1,17 @@
 require "data_structure_error/version"
 
 # DataStructureError < ArgumentTypeError.
-# Creational pattern: Abstract Factory.
 # @abstract: defines a DataStructureError exception class interface. Subclasses
 # ArgumentTypeError.
 class DataStructureError < ArgumentTypeError
+
+  # self.acceptable?(argument_o).
+  # @abstract:
+  # Class method. Verifies the argument is an acceptable data structure.
+  # @return: true in the case the argument's type is acceptable, and false
+  # otherwise.
+  def self.acceptable?(argument_o)
+  end
 
   # initialize(message = nil).
   # @abstract: the constructor.

@@ -10,7 +10,10 @@ Gem::Specification.new do |spec|
 
   spec.summary     = %q{A DataStructureError exception class interface. Subclasses
  ArgumentTypeError.}
-  spec.description = %q{The update fixes architectural problems.}
+  spec.description = %q{Defines a DataStructureError exception class interface.
+Subclasses ArgumentTypeError. There are four instance method signatures and
+one class method signature. Four signatures are public, and one is private.
+}
   spec.homepage    = "https://github.com/scientist8202/data_structure_error"
   spec.license     = "MIT"
 
@@ -40,5 +43,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
 
-  spec.add_dependency 'argument_type_error'
+  spec.add_dependency 'argument_type_error', '1.0.1'
+
 end

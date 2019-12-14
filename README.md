@@ -1,14 +1,14 @@
 # DataStructureError [![Gem Version](https://badge.fury.io/rb/data_structure_error.svg)](https://badge.fury.io/rb/data_structure_error) ![Gem](https://img.shields.io/gem/dt/data_structure_error)
-Defines a `DataStructureError` exception class interface. An Abstract Factory. 
-Subclasses `ArgumentTypeError`. There are four instance method signatures. Three 
-signatures are `public`, and one is `private`. 
+Defines a `DataStructureError` exception class interface. 
+Subclasses `ArgumentTypeError`. There are four instance method signatures and 
+one class method signature. Four signatures are `public`, and one is `private`. 
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'data_structure_error'
+gem 'data_structure_error', '~> 1.1.0'
 ```
 
 And then execute:
@@ -17,14 +17,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install data_structure_error
+    $ gem install data_structure_error -v 1.1.0
 
 ## Usage
-There are four method signatures. Three are `public`, and one is `private`.
+There are five method signatures. Four are `public`, and one is `private`.
 
 ### Public methods
-There are three `public` instance methods. The constructor, `message()`, and 
-`raise_exception(argument_type)`.
+There is one class method, `self.acceptable?(argument_o)`, and three `public` 
+instance methods: the constructor, `message()`, and `raise_exception(argument_type)`.
+
+#### `self.acceptable?(argument_o)`
+
+Class method. Verifies the argument is an acceptable data structure. Returns 
+true in the case the argument's type is acceptable, and false otherwise.
 
 #### `initialize(message = nil)`
 The constructor. Takes a `String` or `NilClass` object explaining the exception.
