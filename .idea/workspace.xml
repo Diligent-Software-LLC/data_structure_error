@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/data_structure_error.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_error.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_structure_error_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_error_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +34,42 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DataStructureErrorTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_structure_error" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_structure_error_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.DataStructureErrorTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -56,6 +100,7 @@
       <workItem from="1573697611000" duration="498000" />
       <workItem from="1573698697262" duration="24000" />
       <workItem from="1576322815456" duration="1694000" />
+      <workItem from="1581805444224" duration="3550000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -120,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576345638404</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding Gemfile.lock.&#10;&#10;Bundler recommends committing the Gemfile.lock file.">
+      <created>1581805542577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581805542577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,33 +199,37 @@
     <MESSAGE value="Added badges." />
     <MESSAGE value="Fixed architectural problems" />
     <MESSAGE value="Updated signatures." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated signatures." />
+    <MESSAGE value="Adding Gemfile.lock.&#10;&#10;Bundler recommends committing the Gemfile.lock file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Gemfile.lock.&#10;&#10;Bundler recommends committing the Gemfile.lock file." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1576345638127">
+    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1581805542329">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1576345638127" />
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1576345694953">
+    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1581805542329" />
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1581809253238">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1576345694953" />
-    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1576345694952">
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1581809253238" />
+    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1581809253237">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1576345694952" />
-    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1576345694952">
+    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1581809253237" />
+    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1581809253237">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1576345694952" />
-    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1576345694953">
+    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1581809253237" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1581809253238">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1576345694953" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1581809253238" />
     <state x="330" y="250" key="Vcs.Push.Dialog.v2" timestamp="1576345655672">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1576345655672" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1581809249441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
   </component>
 </project>

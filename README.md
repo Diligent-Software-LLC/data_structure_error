@@ -1,5 +1,5 @@
 # DataStructureError [![Gem Version](https://badge.fury.io/rb/data_structure_error.svg)](https://badge.fury.io/rb/data_structure_error) ![Gem](https://img.shields.io/gem/dt/data_structure_error)
-Defines a `DataStructureError` exception class interface. 
+Defines a `DataStructureError` exception class interface and Abstract Base. 
 Subclasses `ArgumentTypeError`. There are four instance method signatures and 
 one class method signature. Four signatures are `public`, and one is `private`. 
 
@@ -8,7 +8,7 @@ one class method signature. Four signatures are `public`, and one is `private`.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'data_structure_error', '~> 1.1.0'
+gem "data_structure_error", "~> 1.1.1"
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install data_structure_error -v 1.1.0
+    $ gem install data_structure_error -v 1.1.1
 
 ## Usage
 There are five method signatures. Four are `public`, and one is `private`.
@@ -58,7 +58,8 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at 
-https://github.com/scientist8202/data_structure_error. This project is intended 
+https://github.com/Diligent-Software-LLC/data_structure_error. This project is
+ intended 
 to be a safe, welcoming space for collaboration, and contributors are expected 
 to adhere to the [Contributor Covenant](http://contributor-covenant.org) code 
 of conduct.
@@ -70,4 +71,6 @@ The gem is available as open source under the terms of the
 
 ## Code of Conduct
 
-Everyone interacting in the DataStructureError project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/data_structure_error/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the DataStructureError project’s codebases, issue
+ trackers, chat rooms and mailing lists is expected to follow the 
+ [code of conduct](https://github.com/Diligent-Software-LLC/data_structure_error/blob/master/CODE_OF_CONDUCT.md).
