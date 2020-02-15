@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/data_structure_error.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_error.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_error_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_error_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TTx3M97YMJYQpP0ZB5oic9xbWu" />
@@ -32,6 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -100,7 +103,7 @@
       <workItem from="1573697611000" duration="498000" />
       <workItem from="1573698697262" duration="24000" />
       <workItem from="1576322815456" duration="1694000" />
-      <workItem from="1581805444224" duration="3550000" />
+      <workItem from="1581805444224" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -172,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581805542577</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Prepped v1.1.1&#10;&#10;Updated README, copyright statements, the travis configuration, the gemspec, and the dependencies. Using ArgumentTypeError v1.0.2.">
+      <created>1581809434792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581809434792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,34 +210,47 @@
     <MESSAGE value="Fixed architectural problems" />
     <MESSAGE value="Updated signatures." />
     <MESSAGE value="Adding Gemfile.lock.&#10;&#10;Bundler recommends committing the Gemfile.lock file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Gemfile.lock.&#10;&#10;Bundler recommends committing the Gemfile.lock file." />
+    <MESSAGE value="Prepped v1.1.1&#10;&#10;Updated README, copyright statements, the travis configuration, the gemspec, and the dependencies. Using ArgumentTypeError v1.0.2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepped v1.1.1&#10;&#10;Updated README, copyright statements, the travis configuration, the gemspec, and the dependencies. Using ArgumentTypeError v1.0.2." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1581805542329">
+    <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581809517893">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1581805542329" />
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1581809253238">
+    <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
+    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1581809434484">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1581809253238" />
-    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1581809253237">
+    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1581809434484" />
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1581810227092">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1581809253237" />
-    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1581809253237">
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1581810227092" />
+    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1581810227089">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1581809253237" />
-    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1581809253238">
+    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1581810227089" />
+    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1581810227088">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1581809253238" />
-    <state x="330" y="250" key="Vcs.Push.Dialog.v2" timestamp="1576345655672">
+    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1581810227088" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1581810227091">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1576345655672" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1581810227091" />
+    <state x="286" y="205" key="VCS.ChangeListViewerDialog" timestamp="1581809715249">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="286" y="205" key="VCS.ChangeListViewerDialog/0.23.1680.975@0.23.1680.975" timestamp="1581809715249" />
+    <state x="330" y="250" key="Vcs.Push.Dialog.v2" timestamp="1581809799728">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1581809799728" />
+    <state x="449" y="362" key="git4idea.ui.GitTagDialog" timestamp="1581809771562">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="449" y="362" key="git4idea.ui.GitTagDialog/0.23.1680.975@0.23.1680.975" timestamp="1581809771562" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1581809249441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
