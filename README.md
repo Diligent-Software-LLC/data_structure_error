@@ -8,7 +8,7 @@ one class method signature. Four signatures are `public`, and one is `private`.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "data_structure_error", "~> 1.1.1"
+gem "data_structure_error", "~> 1.1.2"
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install data_structure_error -v 1.1.1
+    $ gem install data_structure_error -v 1.1.2
 
 ## Usage
 There are five method signatures. Four are `public`, and one is `private`.
