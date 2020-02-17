@@ -18,6 +18,7 @@ one class method signature. Four signatures are public, and one is private.
   spec.homepage    = "https://github" +
       ".com/Diligent-Software-LLC/data_structure_error"
   spec.license     = "MIT"
+  spec.required_ruby_version = "~> 2.6.5"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the
   # 'allowed_push_host' to allow pushing to a single host or delete this
