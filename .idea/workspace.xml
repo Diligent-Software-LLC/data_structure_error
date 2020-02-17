@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_structure_error.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_error.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
@@ -30,13 +33,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="DataStructureErrorTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -104,7 +107,9 @@
       <workItem from="1573698697262" duration="24000" />
       <workItem from="1576322815456" duration="1694000" />
       <workItem from="1581805444224" duration="4691000" />
-      <workItem from="1581958674227" duration="4575000" />
+      <workItem from="1581958674227" duration="5826000" />
+      <workItem from="1581965612489" duration="10144000" />
+      <workItem from="1581981348922" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -204,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581960593434</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Removed Travis CI Deployment Configuration.&#10;&#10;Travis CI conditional deployment is problematic. Removed configuration and manually deploying.">
+      <created>1581964534864</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581964534864</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +247,8 @@
     <MESSAGE value="Prepped v1.1.1&#10;&#10;Updated README, copyright statements, the travis configuration, the gemspec, and the dependencies. Using ArgumentTypeError v1.0.2." />
     <MESSAGE value="Fixed v1.1.1, v1.1.2 ready.&#10;&#10;Using ArgumentTypeError v1.0.3. There was a subclassing problem affecting Bundler." />
     <MESSAGE value="Removed Travis CI Bundler Caching.&#10;&#10;Another Bundler problem. Travis CI caches the bundles, and somewhere the file loading is broken. Removed the caching configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Travis CI Bundler Caching.&#10;&#10;Another Bundler problem. Travis CI caches the bundles, and somewhere the file loading is broken. Removed the caching configuration." />
+    <MESSAGE value="Removed Travis CI Deployment Configuration.&#10;&#10;Travis CI conditional deployment is problematic. Removed configuration and manually deploying." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Travis CI Deployment Configuration.&#10;&#10;Travis CI conditional deployment is problematic. Removed configuration and manually deploying." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -243,40 +256,44 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1581960593166">
+    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1581964534587">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1581960593166" />
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1581963987334">
+    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1581964534587" />
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1581982274941">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1581963987334" />
-    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1581963987333">
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1581982274941" />
+    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1581982274941">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1581963987333" />
-    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1581963987332">
+    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1581982274941" />
+    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1581982274940">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1581963987332" />
-    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1581963987333">
+    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1581982274940" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1581982274941">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1581963987333" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1581982274941" />
+    <state x="236" y="149" key="SettingsEditor" timestamp="1581981369729">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="236" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1581981369729" />
     <state x="286" y="205" key="VCS.ChangeListViewerDialog" timestamp="1581809715249">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="286" y="205" key="VCS.ChangeListViewerDialog/0.23.1680.975@0.23.1680.975" timestamp="1581809715249" />
-    <state x="330" y="250" key="Vcs.Push.Dialog.v2" timestamp="1581960598067">
+    <state x="330" y="250" key="Vcs.Push.Dialog.v2" timestamp="1581964540930">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1581960598067" />
+    <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1581964540930" />
     <state x="449" y="362" key="git4idea.ui.GitTagDialog" timestamp="1581809771562">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="449" y="362" key="git4idea.ui.GitTagDialog/0.23.1680.975@0.23.1680.975" timestamp="1581809771562" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1581963981930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
+    <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1581982270353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
   </component>
 </project>
