@@ -1,12 +1,7 @@
 ---
 sudo: false
 language: ruby
-#cache: bundler
+cache: bundler
 rvm:
-  - 2.3.1
-deploy:
-  provider: rubygems
-  api_key: $RUBYGEMS_API_KEY
-  on:
-    tags: true
+  - 2.7.0
 before_install: gem install bundler -v 2.1.2
