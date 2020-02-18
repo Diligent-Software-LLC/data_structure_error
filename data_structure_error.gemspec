@@ -1,16 +1,17 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "data_structure_error/version"
+
+VERSION = "1.1.2"
 
 Gem::Specification.new do |spec|
   spec.name    = "data_structure_error"
-  spec.version = DataStructureError::VERSION
+  spec.version = VERSION
   spec.authors = ["Bradley J. Tannor", "Diligent Software LLC"]
   spec.email   = ["bradleytannor@gmail.com"]
 
-  spec.summary     = %q{A DataStructureError exception class interface and
+  spec.summary               = %q{A DataStructureError exception class interface and
 Abstract Base class. Subclasses ArgumentTypeError.}
-  spec.description = %q{Defines a DataStructureError exception class
+  spec.description           = %q{Defines a DataStructureError exception class
 interface and Abstract Base class. Subclasses ArgumentTypeError. There are
 four instance method signatures and
 one class method signature. Four signatures are public, and one is private.
