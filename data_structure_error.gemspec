@@ -1,24 +1,21 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-VERSION = "1.1.3"
+VERSION = "1.1.4"
 
 Gem::Specification.new do |spec|
   spec.name    = "data_structure_error"
   spec.version = VERSION
   spec.authors = ["Bradley J. Tannor", "Diligent Software LLC"]
-  spec.email   = ["bradleytannor@gmail.com"]
+  spec.email   = ["diligentsoftwarellc@gmail.com"]
 
   spec.summary               = %q{A DataStructureError exception class interface and
-Abstract Base class. Subclasses ArgumentTypeError.}
-  spec.description           = %q{Defines a DataStructureError exception class
-interface and Abstract Base class. Subclasses ArgumentTypeError. There are
-four instance method signatures and
-one class method signature. Four signatures are public, and one is private.
-}
-  spec.homepage    = "https://github" +
-      ".com/Diligent-Software-LLC/data_structure_error"
-  spec.license     = "MIT"
+Abstract Base class.}
+  spec.description           = %q{Declares a DataStructureError exception class
+interface and Abstract Base class. Contains a DataStructureError
+library's method signatures, constants, and attributes.}
+  spec.homepage              = 'https://www.diligentsoftware.org'
+  spec.license               = "MIT"
   spec.required_ruby_version = "~> 2.6.5"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the
@@ -27,8 +24,9 @@ one class method signature. Four signatures are public, and one is private.
   # if spec.respond_to?(:metadata)
   #   spec.metadata["allowed_push_host"] = " Set to 'http://mygemserver.com'"
   #
-  #   spec.metadata["homepage_uri"]    = spec.homepage
-  #   spec.metadata["source_code_uri"] = " Put your gem's public repo URL here."
+  spec.metadata["homepage_uri"]    = spec.homepage
+  spec.metadata["source_code_uri"] = 'https://www.github' +
+      '.com/Diligent-Software-LLC/data_structure_error'
   #   spec.metadata["changelog_uri"]   = " Put your gem's CHANGELOG.md URL here."
   # else
   #   raise "RubyGems 2.0 or newer is required to protect against " \
@@ -45,11 +43,10 @@ one class method signature. Four signatures are public, and one is private.
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  # Development and testing dependencies
   spec.add_development_dependency "bundler", "~> 2.1.2"
   spec.add_development_dependency "simplecov", "~> 0.17.1"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "minitest", "~> 5.0"
-
-  spec.add_dependency "argument_type_error", "1.0.3"
 
 end

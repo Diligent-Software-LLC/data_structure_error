@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_structure_error.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_error.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -38,6 +47,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="DataStructureErrorTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -109,7 +123,7 @@
       <workItem from="1581965612489" duration="10144000" />
       <workItem from="1581981348922" duration="1770000" />
       <workItem from="1582066267659" duration="1830000" />
-      <workItem from="1583159886496" duration="427000" />
+      <workItem from="1583159886496" duration="1813000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -244,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582067507440</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Cleaned Directory&#10;&#10;Moved artifacts into the artifacts directory.">
+      <created>1583160424085</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583160424085</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +301,8 @@
     <MESSAGE value="Upgraded Ruby version, Gem Release Ready.&#10;&#10;Reinstalled Ruby, upgraded version, reinstalled RVM, and hopefully continuous integration bug is gone." />
     <MESSAGE value="Fixed Dependency and Require Problems.&#10;&#10;The template code fails in deployment. The requiring confuses dependencies and loading." />
     <MESSAGE value="v1.1.3 Ready.&#10;&#10;All Continuous Integration tests pass, and build was successful. Patch gem ready." />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1.3 Ready.&#10;&#10;All Continuous Integration tests pass, and build was successful. Patch gem ready." />
+    <MESSAGE value="Cleaned Directory&#10;&#10;Moved artifacts into the artifacts directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned Directory&#10;&#10;Moved artifacts into the artifacts directory." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -288,10 +310,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1582067506793">
+    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1583160423465">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1582067506793" />
+    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1583160423465" />
     <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1582067334657">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -320,10 +342,18 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1582067532036" />
+    <state x="515" y="272" width="667" height="476" key="find.popup" timestamp="1583161462056">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="515" y="272" width="667" height="476" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1583161462056" />
     <state x="449" y="362" key="git4idea.ui.GitTagDialog" timestamp="1581809771562">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="449" y="362" key="git4idea.ui.GitTagDialog/0.23.1680.975@0.23.1680.975" timestamp="1581809771562" />
+    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1583161737914">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1583161737914" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1582066810915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
