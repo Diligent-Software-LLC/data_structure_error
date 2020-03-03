@@ -3,43 +3,57 @@
 
 require "data_structure_error/version"
 
-# DataStructureError < ArgumentTypeError.
-# @abstract: defines a DataStructureError exception class interface. Subclasses
-# ArgumentTypeError.
-class DataStructureError < ArgumentTypeError
+# DataStructureError < TypeError.
+# @abstract
+# Declares a DataStructureError exception class interface.
+class DataStructureError < TypeError
 
-  # self.acceptable?(argument_o).
-  # @abstract:
-  # Class method. Verifies the argument is an acceptable data structure.
-  # @return: true in the case the argument's type is acceptable, and false
-  # otherwise.
-  def self.acceptable?(argument_o)
+  ACCEPTABLE_CORE_TYPES = ['Array', 'Hash', 'Queue', 'SizedQueue'].freeze()
+  DEFAULT_MESSAGE       = 'The type was neither Array, Hash, Queue, or SizedQueue.'
+  INTERFACE             = DataStructureError
+
+  # self.acceptable?(any_object).
+  # @abstract
+  # Class method. Verifies an object is an acceptable type.
+  # @param [Object] any_object
+  # Any object.
+  # @return [TrueClass, FalseClass] acceptable
+  # True in the case the type is acceptable. False otherwise.
+  def self.acceptable?(any_object)
   end
 
-  # initialize(message = nil).
-  # @abstract: the constructor.
-  # @param message: the exception explanation.
-  def initialize(message = nil)
+  # initialize(message = DEFAULT_MESSAGE)
+  # @abstract
+  # Constructor. The message attribute defaults DEFAULT_MESSAGE.
+  # @param [String] message
+  # An explanation error.
+  def initialize(message = DEFAULT_MESSAGE)
   end
 
   # message().
-  # @abstract: getter method. Gets and returns the String message.
+  # @abstract
+  # Getter method. Gets the message attribute.
+  # @return [String] @message
+  # The message attribute.
   def message()
   end
 
-  # raise_exception(argument_type).
-  # @abstract: in the case the argumentis a data type or an unacceptable data
-  # structure, raises. Takes an unknown type object.
-  # @param argument_type: a presumed data structure object.
-  def raise_exzception(argument_type)
+  # raise_exception(any_object).
+  # @abstract
+  # In the case the argument is an unacceptable type, raises
+  # DataStructureError.
+  # @param [Object] any_object
+  # Any object.
+  def raise_exception(any_object)
   end
 
   private
 
   # message=(explanation).
-  # @abstract:
-  # Setter method. Sets the message attribute the argued explanation String.
-  # @param explanation: a String explaining the exception.
+  # @abstract
+  # Setter. Sets the message attribute the explanation.
+  # @param [String] explanation
+  # An error explanation.
   def message=(explanation)
   end
 
