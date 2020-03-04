@@ -2,6 +2,13 @@
 Defines a `DataStructureError` exception class interface and Abstract Base. 
 Declares the DataStructureError library's constants, attributes, and method
  signatures.
+ 
+## Donate
+
+All donations, regardless of quantity, are helpful. Donations support
+longevity and continuous improvement. Make at donation at the project's 
+[collective page](https://opencollective.com/datastructureerror). Greatly 
+appreciated.
 
 ## Installation
 
