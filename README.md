@@ -69,24 +69,11 @@ Getter. Returns the message attribute.
 #### `raise_exception(any_object)`
 
 In the case the object is unacceptable, raises a DataStructureError, and
- displays the error explanation.
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, 
-run `rake test` to run the tests. You can also run `bin/console` for an 
-interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. 
+ displays the error explanation. 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at 
-https://github.com/Diligent-Software-LLC/data_structure_error. This project is
- intended 
-to be a safe, welcoming space for collaboration, and contributors are expected 
-to adhere to the [Contributor Covenant](http://contributor-covenant.org) code 
-of conduct.
+Refer contributing.md.
 
 ## License
 
