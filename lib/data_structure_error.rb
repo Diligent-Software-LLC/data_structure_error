@@ -8,8 +8,9 @@ require "data_structure_error/version"
 # Declares a DataStructureError exception class interface.
 class DataStructureError < TypeError
 
-  ACCEPTABLE_CORE_TYPES = ['Array', 'Hash', 'Queue', 'SizedQueue'].freeze()
-  DEFAULT_MESSAGE       = 'The type was neither Array, Hash, Queue, or SizedQueue.'
+  ACCEPTABLE_CORE_TYPES = ['Array', 'Hash', 'Queue', 'SizedQueue', 'Node'].freeze()
+  DEFAULT_MESSAGE       = 'The type was neither Array, Hash, Queue,
+SizedQueue, or Node.'
   INTERFACE             = DataStructureError
 
   # self.acceptable?(any_object).

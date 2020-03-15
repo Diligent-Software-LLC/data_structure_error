@@ -32,13 +32,15 @@ class DataStructureErrorTest < Minitest::Test
 
   # test_core_types().
   # @abstract
-  # ACCEPTABLE_CORE_TYPES contains 'Array', 'Hash', 'Queue', and 'SizedQueue'.
+  # ACCEPTABLE_CORE_TYPES contains 'Array', 'Hash', 'Queue', 'SizedQueue', and
+  # 'Node'.
   def test_core_types()
 
     assert_includes(ACCEPTABLE_CORE_TYPES, 'Array')
     assert_includes(ACCEPTABLE_CORE_TYPES, 'Hash')
     assert_includes(ACCEPTABLE_CORE_TYPES, 'Queue')
     assert_includes(ACCEPTABLE_CORE_TYPES, 'SizedQueue')
+    assert_includes(ACCEPTABLE_CORE_TYPES, 'Node')
 
   end
 
@@ -58,6 +60,7 @@ class DataStructureErrorTest < Minitest::Test
     assert_includes(DEFAULT_MESSAGE, 'Hash')
     assert_includes(DEFAULT_MESSAGE, 'Queue')
     assert_includes(DEFAULT_MESSAGE, 'SizedQueue')
+    assert_includes(DEFAULT_MESSAGE, 'Node')
 
   end
 
