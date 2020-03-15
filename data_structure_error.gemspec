@@ -15,7 +15,7 @@ interface.}
   spec.description           = %q{Declares a DataStructureError exception class
 interface. Contains a DataStructureError library's method signatures,
 constants, and attributes.}
-  spec.homepage              = 'https:/docs.diligentsoftware.org'
+  spec.homepage = 'https://docs.diligentsoftware.org'
   spec.license               = "MIT"
   spec.required_ruby_version = "~> 2.6.5"
 

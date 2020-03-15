@@ -2,7 +2,5 @@
 # under the MIT License.
 
 class DataStructureError < TypeError
-
   VERSION = ::VERSION
-
 end

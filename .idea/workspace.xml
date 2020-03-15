@@ -37,13 +37,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contributing.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_error.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_error_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_error_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +174,7 @@
       <workItem from="1582066267659" duration="1830000" />
       <workItem from="1583159886496" duration="1813000" />
       <workItem from="1583243402897" duration="8224000" />
-      <workItem from="1584302007942" duration="4027000" />
+      <workItem from="1584302007942" duration="4399000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -335,10 +330,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583350978929</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Setup Complete, In Progress Complete&#10;&#10;Added Node acceptability. Updated documentation. Updated configurations.">
+      <created>1584312338688</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584312338688</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="Board DSEInt Project Development: 1.2.0 #{In Progress} " />
+        <option name="defaultSearch" value="Board DSEInt Project Development: 1.2.0 #{Deploy Preparation} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -380,7 +382,8 @@
     <MESSAGE value="Specified Contributing Workflow&#10;&#10;Added contributing.md. contributing.md outlines the contribution steps." />
     <MESSAGE value="Updated README.md&#10;&#10;Referred contributing.md in the README.md Contributing section." />
     <MESSAGE value="Updated README.md&#10;&#10;Added donate section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md&#10;&#10;Added donate section." />
+    <MESSAGE value="Setup Complete, In Progress Complete&#10;&#10;Added Node acceptability. Updated documentation. Updated configurations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete, In Progress Complete&#10;&#10;Added Node acceptability. Updated documentation. Updated configurations." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -392,26 +395,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1583350978500">
+    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1584312338417">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1583350978500" />
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1584311910328">
+    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584312338417" />
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1584312502617">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584311910328" />
-    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1584311910327">
+    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584312502617" />
+    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1584312502616">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584311910327" />
-    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1584311910327">
+    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584312502616" />
+    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1584312502615">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584311910327" />
-    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1584311910327">
+    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584312502615" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1584312502617">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584311910327" />
+    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584312502617" />
     <state x="236" y="149" key="SettingsEditor" timestamp="1581981369729">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -446,6 +449,6 @@
     <state x="513" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1584309263964" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1583243036358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
+    <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1584312496155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
   </component>
 </project>
