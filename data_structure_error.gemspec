@@ -1,12 +1,11 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-
-VERSION = "1.2.0"
+require 'data_structure_error'
 
 Gem::Specification.new do |spec|
 
   spec.name    = "data_structure_error"
-  spec.version = VERSION
+  spec.version = DataStructureError::VERSION
   spec.authors = ["Bradley J. Tannor", "Diligent Software LLC"]
   spec.email   = ["diligentsoftwarellc@gmail.com"]
 
