@@ -37,10 +37,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/data_structure_error.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_error_int.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_structure_error_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +190,7 @@
       <workItem from="1583243402897" duration="8224000" />
       <workItem from="1584302007942" duration="4911000" />
       <workItem from="1584451380431" duration="1355000" />
-      <workItem from="1585746050012" duration="817000" />
+      <workItem from="1585746050012" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -363,10 +367,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584452500772</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Setup Complete&#10;&#10;Rewrote the Gem Specification.">
+      <created>1585747090345</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585747090345</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Component: Error Subsystem: Interface Sprints: 4 #Setup " />
+        <option name="defaultSearch" value="project: DataStructure Component: Error Subsystem: Interface Sprints: 4 #Development " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -411,7 +422,8 @@
     <MESSAGE value="Setup Complete, In Progress Complete&#10;&#10;Added Node acceptability. Updated documentation. Updated configurations." />
     <MESSAGE value="All Tests Pass&#10;&#10;100% coverage. Fixed a bug in the gem specification. Reformatted version.rb." />
     <MESSAGE value="Fixed Bug&#10;&#10;Version was hidden from project, so any dependents cannot find the version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bug&#10;&#10;Version was hidden from project, so any dependents cannot find the version." />
+    <MESSAGE value="Setup Complete&#10;&#10;Rewrote the Gem Specification." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Rewrote the Gem Specification." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -423,10 +435,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1584452500430">
+    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2" timestamp="1585747089864">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584452500430" />
+    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585747089864" />
     <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1584452455797">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -455,26 +467,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584452655037" />
-    <state x="638" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583330120600">
+    <state x="638" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585747425724">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="638" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1583330120600" />
-    <state x="515" y="272" width="667" height="476" key="find.popup" timestamp="1583162802555">
+    <state x="638" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1585747425724" />
+    <state x="515" y="272" width="816" height="550" key="find.popup" timestamp="1585747222062">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="515" y="272" width="667" height="476" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1583162802555" />
+    <state x="515" y="272" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585747222062" />
     <state x="449" y="362" key="git4idea.ui.GitTagDialog" timestamp="1581809771562">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="449" y="362" key="git4idea.ui.GitTagDialog/0.23.1680.975@0.23.1680.975" timestamp="1581809771562" />
-    <state x="513" y="235" width="670" height="675" key="run.anything.popup" timestamp="1584313014144">
+    <state x="513" y="235" width="670" height="675" key="run.anything.popup" timestamp="1585747341560">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="513" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584313014144" />
-    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1584309263964">
+    <state x="513" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585747341560" />
+    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585748686070">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1584309263964" />
+    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585748686070" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1584452451767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    data_structure_error (1.2.1)
+    data_structure_error_int (1.2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -20,11 +20,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.1.2)
-  data_structure_error!
+  bundler (~> 2.1.0)
+  data_structure_error_int!
   minitest (~> 5.0)
   rake (~> 13.0)
-  simplecov (~> 0.17.1)
+  simplecov (~> 0.17.0)
 
 BUNDLED WITH
    2.1.2
