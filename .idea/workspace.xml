@@ -4,8 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BuildServerSettings">
-    <option name="LOGIN" value="" />
-    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="LOGIN" value="admin" />
+    <option name="SERVER_URL" value="http://localhost:8111" />
     <option name="REMEMBER_ME" value="true" />
     <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
     <option name="INSPECTIONS_BUILD_TYPE_IDS" />
@@ -37,11 +37,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_structure_error.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_error_int.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
   </component>
   <component name="RunManager">
     <configuration name="DataStructureErrorTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="data_structure_error" />
+      <module name="data_structure_error_int" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -186,7 +185,8 @@
       <workItem from="1583159886496" duration="1813000" />
       <workItem from="1583243402897" duration="8224000" />
       <workItem from="1584302007942" duration="4911000" />
-      <workItem from="1584451380431" duration="1092000" />
+      <workItem from="1584451380431" duration="1355000" />
+      <workItem from="1585746050012" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -356,10 +356,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584312589886</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fixed Bug&#10;&#10;Version was hidden from project, so any dependents cannot find the version.">
+      <created>1584452500772</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584452500772</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="Board DSEInt Project Development: 1.2.0 #{Deploy Preparation} " />
+        <option name="defaultSearch" value="project: DataStructure Component: Error Subsystem: Interface Sprints: 4 #Setup " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -403,7 +410,8 @@
     <MESSAGE value="Updated README.md&#10;&#10;Added donate section." />
     <MESSAGE value="Setup Complete, In Progress Complete&#10;&#10;Added Node acceptability. Updated documentation. Updated configurations." />
     <MESSAGE value="All Tests Pass&#10;&#10;100% coverage. Fixed a bug in the gem specification. Reformatted version.rb." />
-    <option name="LAST_COMMIT_MESSAGE" value="All Tests Pass&#10;&#10;100% coverage. Fixed a bug in the gem specification. Reformatted version.rb." />
+    <MESSAGE value="Fixed Bug&#10;&#10;Version was hidden from project, so any dependents cannot find the version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bug&#10;&#10;Version was hidden from project, so any dependents cannot find the version." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -415,10 +423,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1584312589630">
+    <state x="305" y="112" key="CommitChangelistDialog2" timestamp="1584452500430">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584312589630" />
+    <state x="305" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584452500430" />
     <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1584452455797">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -443,10 +451,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="286" y="205" key="VCS.ChangeListViewerDialog/0.23.1680.975@0.23.1680.975" timestamp="1581809715249" />
-    <state x="330" y="250" key="Vcs.Push.Dialog.v2" timestamp="1584312811860">
+    <state x="330" y="250" key="Vcs.Push.Dialog.v2" timestamp="1584452655037">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584312811860" />
+    <state x="330" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584452655037" />
     <state x="638" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583330120600">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
