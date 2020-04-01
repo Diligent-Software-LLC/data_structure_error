@@ -37,12 +37,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_structure_error_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_error_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_error_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="279" />
+    <option name="myElementSize" value="337" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -306,7 +303,7 @@
       <workItem from="1583243402897" duration="8224000" />
       <workItem from="1584302007942" duration="4911000" />
       <workItem from="1584451380431" duration="1355000" />
-      <workItem from="1585746050012" duration="4723000" />
+      <workItem from="1585746050012" duration="5581000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -504,10 +501,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585749494388</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Development Complete&#10;&#10;All tests pass.">
+      <created>1585750837372</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585750837372</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Component: Error Subsystem: Interface Sprints: 4 #Development " />
+        <option name="defaultSearch" value="project: DataStructure Component: Error Subsystem: Interface Sprints: 4 #{Prepare Deploy}  " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -529,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initialized repository." />
     <MESSAGE value="Fixed gemspec." />
     <MESSAGE value="Edited README." />
     <MESSAGE value="Wrote README." />
@@ -554,7 +557,8 @@
     <MESSAGE value="Fixed Bug&#10;&#10;Version was hidden from project, so any dependents cannot find the version." />
     <MESSAGE value="Setup Complete&#10;&#10;Rewrote the Gem Specification." />
     <MESSAGE value="Development in Progress&#10;&#10;Fixed 1.2 bugs. Added GNU General Public License. Edited copyright statements. Fixed YARD. Fixed 'require' statements. Rewrote data_structure_error.rb. Rewrote data_structure_error_test.rb. Added a .yardopts file. Renamed data_structure_error.rb data_structure_error_int.rb. Renamed data_structure_error_test.rb data_structure_error_int_test.rb." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development in Progress&#10;&#10;Fixed 1.2 bugs. Added GNU General Public License. Edited copyright statements. Fixed YARD. Fixed 'require' statements. Rewrote data_structure_error.rb. Rewrote data_structure_error_test.rb. Added a .yardopts file. Renamed data_structure_error.rb data_structure_error_int.rb. Renamed data_structure_error_test.rb data_structure_error_int_test.rb." />
+    <MESSAGE value="Development Complete&#10;&#10;All tests pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;All tests pass." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -566,10 +570,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2" timestamp="1585749494156">
+    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2" timestamp="1585750837113">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585749494156" />
+    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585750837113" />
     <state width="1527" height="270" key="GridCell.Tab.0.bottom" timestamp="1585750776687">
       <screen x="0" y="23" width="1680" height="975" />
     </state>

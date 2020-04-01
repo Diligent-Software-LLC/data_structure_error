@@ -7,6 +7,8 @@ require_relative "data_structure_error/version"
 # @abstract
 # @class_description
 #   Declares a DataStructureError exception class interface.
+# @attr message [String]
+#   An error explanation.
 class DataStructureErrorInt < TypeError
 
   DEFAULT_MESSAGE =
