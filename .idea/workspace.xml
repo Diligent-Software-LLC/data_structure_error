@@ -36,7 +36,14 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="" />
+    <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_structure_error_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_error_int_test.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +112,36 @@
       <command value="mv data_structure_error-1.2.0.gem artifacts" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DataStructureErrorIntTest">
+    <configuration name="DataStructureErrorIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_structure_error_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_structure_error_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DataStructureErrorTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="data_structure_error_int" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -135,10 +171,99 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_dm_def" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_structure_error_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_structure_error_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_dm_def" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_dm_immut" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_structure_error_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_structure_error_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_dm_immut" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_methods_dec" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_structure_error_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_structure_error_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_methods_dec" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Test::Unit/Shoulda/Minitest.DataStructureErrorTest" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.DataStructureErrorTest" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.DataStructureErrorIntTest" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_methods_dec" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_dm_def" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_dm_immut" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.DataStructureErrorTest" />
       </list>
     </recent_temporary>
@@ -181,7 +306,7 @@
       <workItem from="1583243402897" duration="8224000" />
       <workItem from="1584302007942" duration="4911000" />
       <workItem from="1584451380431" duration="1355000" />
-      <workItem from="1585746050012" duration="3424000" />
+      <workItem from="1585746050012" duration="4723000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -372,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585749479148</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Development in Progress&#10;&#10;Fixed 1.2 bugs. Added GNU General Public License. Edited copyright statements. Fixed YARD. Fixed 'require' statements. Rewrote data_structure_error.rb. Rewrote data_structure_error_test.rb. Added a .yardopts file. Renamed data_structure_error.rb data_structure_error_int.rb. Renamed data_structure_error_test.rb data_structure_error_int_test.rb.">
+      <created>1585749494388</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1585749494388</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: DataStructure Component: Error Subsystem: Interface Sprints: 4 #Development " />
@@ -434,26 +566,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2" timestamp="1585749478732">
+    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2" timestamp="1585749494156">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585749478732" />
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom" timestamp="1584452455797">
+    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585749494156" />
+    <state width="1527" height="270" key="GridCell.Tab.0.bottom" timestamp="1585750776687">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584452455797" />
-    <state width="1413" height="270" key="GridCell.Tab.0.center" timestamp="1584452455796">
+    <state width="1527" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585750776687" />
+    <state width="1527" height="270" key="GridCell.Tab.0.center" timestamp="1585750776687">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584452455796" />
-    <state width="1413" height="270" key="GridCell.Tab.0.left" timestamp="1584452455796">
+    <state width="1527" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585750776687" />
+    <state width="1527" height="270" key="GridCell.Tab.0.left" timestamp="1585750776685">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584452455796" />
-    <state width="1413" height="270" key="GridCell.Tab.0.right" timestamp="1584452455797">
+    <state width="1527" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585750776685" />
+    <state width="1527" height="270" key="GridCell.Tab.0.right" timestamp="1585750776687">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584452455797" />
+    <state width="1527" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585750776687" />
     <state x="236" y="149" key="SettingsEditor" timestamp="1581981369729">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -488,6 +620,10 @@
     <state x="513" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585748686070" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structure_error_int@DataStructureErrorIntTest.rcov" NAME="DataStructureErrorIntTest Coverage Results" MODIFIED="1585750771550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
+    <SUITE FILE_PATH="coverage/data_structure_error_int@test_dm_immut.rcov" NAME="test_dm_immut Coverage Results" MODIFIED="1585750065211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
+    <SUITE FILE_PATH="coverage/data_structure_error_int@test_dm_def.rcov" NAME="test_dm_def Coverage Results" MODIFIED="1585750263101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
     <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1584452451767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />
+    <SUITE FILE_PATH="coverage/data_structure_error_int@test_methods_dec.rcov" NAME="test_methods_dec Coverage Results" MODIFIED="1585750692196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
   </component>
 </project>

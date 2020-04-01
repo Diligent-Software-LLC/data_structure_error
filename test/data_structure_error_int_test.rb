@@ -40,21 +40,23 @@ class DataStructureErrorIntTest < Minitest::Test
   # @description
   #   initialize, message, and message= were declared.
   def test_methods_dec()
-    i_methods  = CLASS.instance_methods()
+
+    i_methods  = CLASS.instance_methods(false)
+    priv_i_m   = CLASS.private_instance_methods(false)
     expected_1 = :initialize
-    assert_includes(i_methods, expected_1)
+    assert_includes(priv_i_m, expected_1)
     expected_2 = :message
-    assert_includes(i + methods, expected_2)
-    priv_i_m   = CLASS.private_instance_methods()
+    assert_includes(i_methods, expected_2)
     expected_3 = :message=
     assert_includes(priv_i_m, expected_3)
+
   end
 
   # test_dm_def().
   # @description
   #   DEFAULT_MESSAGE was defined.
   def test_dm_def()
-    assert(CLASS.const_defined?(DEFAULT_MESSAGE))
+    assert(CLASS.const_defined?(:DEFAULT_MESSAGE, false))
   end
 
   # test_dm_immut().
@@ -62,7 +64,7 @@ class DataStructureErrorIntTest < Minitest::Test
   #   DEFAULT_MESSAGE is dynamically immutable.
   def test_dm_immut()
     assert_raises(RuntimeError) {
-      CLASS::DEFAULT_MESSAGE[FIRST_INDEX] = File
+      CLASS::DEFAULT_MESSAGE[FIRST_INDEX] = 'm'
     }
   end
 

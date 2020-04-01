@@ -6,5 +6,5 @@
 # @class_description
 #   Declares a DataStructureError exception class interface.
 class DataStructureErrorInt < TypeError
-  VERSION = "1.2.1"
+  VERSION = "2.0.0"
 end

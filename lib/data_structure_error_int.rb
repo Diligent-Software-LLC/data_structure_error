@@ -9,8 +9,8 @@ require_relative "data_structure_error/version"
 #   Declares a DataStructureError exception class interface.
 class DataStructureErrorInt < TypeError
 
-  DEFAULT_MESSAGE = 'The type was neither Array, Hash, Queue, or
-SizedQueue.'
+  DEFAULT_MESSAGE =
+      'The type was neither Array, Hash, Queue, orSizedQueue.'.freeze()
 
   # initialize(message = DEFAULT_MESSAGE).
   # @description
