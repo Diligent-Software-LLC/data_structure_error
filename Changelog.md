@@ -1,5 +1,24 @@
 # Changelog
 
+## v3.0.0, 2020-04-23
+
+### Added
+
+- A .yardopts file assertion.
+
+### Edited
+
+- Gem Specification format.
+- Development dependencies.
+- Updated the default message. The default message includes Node and LinkedList.
+- Deleted Travis CI deployment settings.
+
+### Fixed
+
+- License.
+- Changelog URI.
+- README.md's Installation and Documentation section links.
+
 ## v2.0.0, 2020-04-01
 
 ### Added
