@@ -11,8 +11,8 @@ require_relative "data_structure_error/version"
 #   An error explanation.
 class DataStructureErrorInt < TypeError
 
-  DEFAULT_MESSAGE =
-      'The type was neither Array, Hash, Queue, orSizedQueue.'.freeze()
+  DEFAULT_MESSAGE = 'The type was neither Array, Hash, Queue, SizedQueue, Node,
+or LinkedList.'.freeze()
 
   # initialize(message = DEFAULT_MESSAGE).
   # @description

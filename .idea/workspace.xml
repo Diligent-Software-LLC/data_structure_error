@@ -37,10 +37,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b93cc244-59e5-4372-a126-74f9f7151caa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_error.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_error.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_error/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_error_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_error_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_structure_error_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_error_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +311,7 @@
       <workItem from="1584451380431" duration="1355000" />
       <workItem from="1585746050012" duration="8221000" />
       <workItem from="1587607992443" duration="49000" />
-      <workItem from="1587659590405" duration="554000" />
+      <workItem from="1587659590405" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1573498491742</created>
@@ -538,10 +537,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585757674879</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed gem license and Changelog URI. Edited development dependencies.">
+      <created>1587660228343</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1587660228343</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Subsystem: Error Component: Interface Sprints: 6 #{Setup }  " />
+        <option name="defaultSearch" value="project: DataStructure Subsystem: Error Component: Interface Sprints: 6 #{Development}  " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -563,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added badges." />
     <MESSAGE value="Fixed architectural problems" />
     <MESSAGE value="Updated signatures." />
     <MESSAGE value="Adding Gemfile.lock.&#10;&#10;Bundler recommends committing the Gemfile.lock file." />
@@ -588,7 +593,8 @@
     <MESSAGE value="Reformatted&#10;&#10;Formatted version.rb and data_structure_error_int.rb." />
     <MESSAGE value="README.md&#10;&#10;Rewrote README.md." />
     <MESSAGE value="Changelog.md&#10;&#10;Updated the Changelog.md record." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changelog.md&#10;&#10;Updated the Changelog.md record." />
+    <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed gem license and Changelog URI. Edited development dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed gem license and Changelog URI. Edited development dependencies." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -600,30 +606,30 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="487" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1581809517893" />
-    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2" timestamp="1585757674505">
+    <state x="168" y="59" width="1378" height="904" key="CommitChangelistDialog2" timestamp="1587660227797">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="278" y="59" width="1175" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585757674505" />
+    <state x="168" y="59" width="1378" height="904" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587660227797" />
     <state x="155" y="123" width="1369" height="774" key="DiffContextDialog" timestamp="1585757528358">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="155" y="123" width="1369" height="774" key="DiffContextDialog/0.23.1680.975@0.23.1680.975" timestamp="1585757528358" />
-    <state width="1527" height="270" key="GridCell.Tab.0.bottom" timestamp="1587660126681">
+    <state width="1527" height="270" key="GridCell.Tab.0.bottom" timestamp="1587660440696">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1527" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587660126681" />
-    <state width="1527" height="270" key="GridCell.Tab.0.center" timestamp="1587660126680">
+    <state width="1527" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587660440696" />
+    <state width="1527" height="270" key="GridCell.Tab.0.center" timestamp="1587660440696">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1527" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587660126680" />
-    <state width="1527" height="270" key="GridCell.Tab.0.left" timestamp="1587660126680">
+    <state width="1527" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587660440696" />
+    <state width="1527" height="270" key="GridCell.Tab.0.left" timestamp="1587660440695">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1527" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587660126680" />
-    <state width="1527" height="270" key="GridCell.Tab.0.right" timestamp="1587660126680">
+    <state width="1527" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587660440695" />
+    <state width="1527" height="270" key="GridCell.Tab.0.right" timestamp="1587660440696">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1527" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587660126680" />
+    <state width="1527" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587660440696" />
     <state x="236" y="149" key="SettingsEditor" timestamp="1581981369729">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -652,13 +658,13 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="513" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587659929813" />
-    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587660079389">
+    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587660499895">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587660079389" />
+    <state x="513" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587660499895" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structure_error_int@DataStructureErrorIntTest.rcov" NAME="DataStructureErrorIntTest Coverage Results" MODIFIED="1585750771550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
+    <SUITE FILE_PATH="coverage/data_structure_error_int@DataStructureErrorIntTest.rcov" NAME="DataStructureErrorIntTest Coverage Results" MODIFIED="1587660436588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
     <SUITE FILE_PATH="coverage/data_structure_error_int@test_dm_immut.rcov" NAME="test_dm_immut Coverage Results" MODIFIED="1585750065211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
     <SUITE FILE_PATH="coverage/data_structure_error_int@test_dm_def.rcov" NAME="test_dm_def Coverage Results" MODIFIED="1585750263101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error_int" />
     <SUITE FILE_PATH="coverage/data_structure_error@DataStructureErrorTest.rcov" NAME="DataStructureErrorTest Coverage Results" MODIFIED="1584452451767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_error" />

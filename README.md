@@ -4,15 +4,15 @@ A DataStructureError exception class interface.
 
 ## Installation
 
-- Refer the DataStructure Packages' 
-[installation](https://docs.diligentsoftware.org/datastructure/packages#installation) 
+- Refer the DataStructure Error Packages' Interface
+[Installation](https://docs.diligentsoftware.org/datastructure-1/error/packages#interface_installation) 
 section.
 
 ## Documentation
 
-- Refer the DataStructure 
-[Error Interface](https://docs.diligentsoftware.org/datastructure/interface) 
-homepage. 
+- Refer the DataStructure Error
+[Interface](https://docs.diligentsoftware.org/datastructure-1/error/interface) 
+homepage.
 
 ## Contributing
 
